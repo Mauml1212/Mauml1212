@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>صفحتي الشخصية</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #F7E81C; /* اللون الأساسي */
+            color: #093E20; /* اللون الأخضر */
+            text-align: center;
+        }
+        header {
+            background-color: #093E20;
+            color: #F7E81C;
+            padding: 15px 0;
+            font-size: 24px;
+            font-weight: bold;
+        }
+        .container {
+            padding: 40px 20px;
+        }
+        .btn {
+            display: inline-block;
+            background-color: #000;
+            color: #F7E81C;
+            padding: 10px 20px;
+            margin-top: 20px;
+            text-decoration: none;
+            border-radius: 5px;
+            transition: 0.3s;
+        }
+        .btn:hover {
+            background-color: #F7E81C;
+            color: #000;
+        }
+        .social-icons {
+            margin-top: 30px;
+        }
+        .social-icons a {
+            margin: 0 10px;
+            text-decoration: none;
+            font-size: 24px;
+            color: #093E20;
+            transition: 0.3s;
+        }
+        .social-icons a:hover {
+            color: #000;
+        }
+        footer {
+            margin-top: 50px;
+            background-color: #093E20;
+            color: #F7E81C;
+            padding: 10px 0;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+
+<header>صفحتي الشخصية</header>
+
+<div class="container">
+    <h2>مرحبًا بك في صفحتي</h2>
+    <p>هذه صفحة ويب شخصية بتصميم إسلامي شيعي عصري.</p>
+    <a href="#" class="btn">تعرف عليّ أكثر</a>
+
+    <div class="social-icons">
+        <a href="https://facebook.com" target="_blank">🔗 فيسبوك</a>
+        <a href="https://twitter.com" target="_blank">🔗 تويتر</a>
+        <a href="https://instagram.com" target="_blank">🔗 إنستغرام</a>
+    </div>
+</div>
+
+<footer>
+    &copy; 2025 جميع الحقوق محفوظة
+</footer>
+
+</body>
+</html>
